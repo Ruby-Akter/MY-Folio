@@ -1,0 +1,116 @@
+/* =========== Common Css Start =========== */
+h1,h2,h3,h4,h5,h6,
+p,ul,ol{
+    margin: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+/* =========== Common Css End =========== */
+
+
+/* =========== Nav Section Css Start =========== */
+#primary_nav{
+    background-color: #02918c;
+}
+#primary_nav #menu ul li a{
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 13.5px 25px;
+    display: inline-block;
+}
+/* =========== Nav Section Css End =========== */
+
+/* =========== Banner Section Css Start =========== */
+#banner{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/banner.jpg);
+    background-size: cover;
+    height: 728px;
+    background-position: center;
+    color:#ffffff;
+}
+#banner h3{
+    font-size:30px;
+    font-weight: 400;
+}
+#banner h1 {
+    font-size: 68px;
+    font-weight: 800;
+    letter-spacing: 30px;
+    text-transform: uppercase;
+ }
+#banner p{
+    font-size:18px ;
+}
+
+#banner img{
+    margin: 38px 0;
+ }
+#banner a {
+    font-size: 14px;
+    font-weight: 800;
+    color: #0b1016;
+    background-color: #cfc91d;
+    padding: 14px 57px;
+    display: inline-block;
+    text-transform: uppercase;
+    
+ }
+ 
+
+
+/* =========== Banner Section Css End =========== */
+
+/* =========== About Section Css Start =========== */
+
+#about .section_info h2{
+    font-size: 46px;
+   font-weight: 800;
+   text-transform: uppercase;
+   color: #02918c;
+}
+#about .section_info p{
+    font-size: 16px;
+    line-height: 41px;
+    color: #7e8287;
+}
+#about .section_info b{
+    font-size: 23px;
+}
+.about_box{
+    margin-top: 50px;
+    padding: 36px 0;
+    text-align: center;
+    border-right: 1px solid #ccc;
+    
+    
+    
+
+
+}
+.about_box:last-child{
+    border:none;
+}
+.about_box p{
+    font-size: 14.66px;
+    color: #7e8287;
+    font-weight: 400;
+
+}
+.about_box h2{
+    font-weight: 800;
+    font-size: 16px;
+    color :#7e8287;
+    margin:28px;
+}
+
+/* =========== About Section Css End ===========*/
